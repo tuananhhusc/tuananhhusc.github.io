@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COURSE - NTABLP</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* Course-specific styles */
+        .course-hero {
+            background: #f8f6f1;
+            color: rgb(14, 13, 13);
+            padding: 120px 2rem 60px;
+            text-align: center;
+        }
+        
+        .course-title {
+            font-size: 3rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+        
+        .course-subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .course-content {
+            padding: 60px 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            background: #f8f6f1;
+        }
+        
+        .video-section {
+            margin-bottom: 60px;
+        }
+        
+        .video-container {
+            position: relative;
+            background: #000;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+        
+        .video-container video {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .course-info {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            margin-top: 60px;
+        }
+        
+        .info-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .info-card h3 {
+            color: #7a9b73;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .info-card p {
+            line-height: 1.8;
+            color: #555;
+        }
+        
+        .back-home {
+            background: #7a9b73;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 50px;
+            display: inline-block;
+            margin-top: 2rem;
+            transition: all 0.3s ease;
+        }
+        
+        .back-home:hover {
+            background: #5f7a58;
+            transform: translateY(-2px);
+        }
+        
+        @media (max-width: 768px) {
+            .course-title {
+                font-size: 2rem;
+            }
+            
+            .course-info {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            
+            .course-hero {
+                padding: 100px 1rem 40px;
+            }
+        }
+        
+        body {
+            background: #f8f6f1;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h1><a href="index.html" style="color: #333; text-decoration: none;">NTABLP</a></h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="https://tuananhhuscidvn.wordpress.com/" target="_blank" rel="noopener noreferrer">BLOG</a></li>
+                <li><a href="https://phanmem123.com/category/phan-mem/phan-mem-ky-thuat/" target="_blank" rel="noopener noreferrer">SOFTWARE</a></li>
+                <li><a href="course.html" class="active">COURSE</a></li>
+                <li class="dropdown">
+                    <a href="#shop">SHOP <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="https://www.tiktok.com/@ntablp" target="_blank" rel="noopener noreferrer">Tiktok</a>
+                        <a href="https://shopee.vn/ntablp" target="_blank" rel="noopener noreferrer">Shopee</a>
+                    </div>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Course Hero Section -->
+    <section class="course-hero">
+        <h1 class="course-title">KHÓA HỌC ĐIỆN TỬ VIỄN THÔNG</h1>
+        <p class="course-subtitle">Khám phá thế giới công nghệ thông qua những khóa học chuyên sâu về điện tử và viễn thông</p>
+    </section>
+
+    <!-- Course Content -->
+    <section class="course-content">
+        <div class="video-section">
+            <div class="video-container">
+                <video controls preload="metadata">
+                    <source src="video/coming soon.mp4" type="video/mp4">
+                    Trình duyệt của bạn không hỗ trợ video.
+                </video>
+            </div>
+            <div style="text-align: center;">
+                <h3 style="color: #7a9b73; margin-bottom: 1rem;">Coming Soon - Sắp Ra Mắt</h3>
+                <p style="color: #666; font-size: 1.1rem;">Khóa học sẽ sớm được cập nhật với nội dung đầy đủ và chi tiết</p>
+            </div>
+        </div>
+
+        <div class="course-info">
+            <div class="info-card">
+                <h3><i class="fas fa-graduation-cap"></i> Nội Dung Khóa Học</h3>
+                <p>Khóa học sẽ bao gồm các chủ đề từ cơ bản đến nâng cao về điện tử viễn thông, bao gồm:</p>
+                <ul style="margin-top: 1rem; padding-left: 1.5rem;">
+                    <li>Nguyên lý cơ bản về mạch điện tử</li>
+                    <li>Hệ thống viễn thông hiện đại</li>
+                    <li>Thiết kế và phân tích mạch</li>
+                    <li>Ứng dụng thực tế trong công nghiệp</li>
+                </ul>
+            </div>
+            
+            <div class="info-card">
+                <h3><i class="fas fa-clock"></i> Thông Tin Khóa Học</h3>
+                <p><strong>Thời lượng:</strong> Đang cập nhật</p>
+                <p><strong>Độ khó:</strong> Từ cơ bản đến nâng cao</p>
+                <p><strong>Yêu cầu:</strong> Kiến thức toán học cơ bản</p>
+                <p><strong>Ngôn ngữ:</strong> Tiếng Việt</p>
+                <p><strong>Chứng chỉ:</strong> Có</p>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem;">
+            <a href="index.html" class="back-home">
+                <i class="fas fa-home"></i> Về Trang Chủ
+            </a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html> 

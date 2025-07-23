@@ -1,0 +1,16 @@
+Để website hoạt động hoàn chỉnh:
+
+1. Cung cấp ảnh của bạn 
+2. Đặt tên file ảnh thành: hero-image.jpg
+3. Đặt file ảnh trong cùng thư mục với index.html
+
+Kích cỡ ảnh được khuyến nghị:
+- Độ phân giải: 1920x1080 hoặc cao hơn
+- Tỷ lệ: 16:9 hoặc 3:2 
+- Định dạng: .jpg, .png, .webp
+- Kích thước file: dưới 2MB để tải nhanh
+
+Ảnh sẽ được hiển thị toàn màn hình với:
+- Background cover (không bị méo)
+- Parallax effect khi scroll
+- Responsive trên mọi thiết bị 
