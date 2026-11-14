@@ -1,0 +1,21 @@
+{
+  "name": "NTABLP | Nguyễn Tuấn Anh",
+  "short_name": "NTABLP",
+  "description": "Kỹ sư Điện tử Viễn thông (HUSC) & Nghiên cứu Tâm lý học (VLU)",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "/image/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/image/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

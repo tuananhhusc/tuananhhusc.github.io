@@ -1,165 +1,101 @@
-# NTABLP_NGUYỄN TUẤN ANH - Website
+# NTABLP - Website Cá Nhân & Trung Tâm Kỹ Thuật (Next.js)
 
-Một website cá nhân hiện đại NGUYỄN TUẤN ANH
-
-## 🌟 Tính năng
-
-- **Thiết kế Responsive**: Hoạt động hoàn hảo trên mọi thiết bị
-- **Illustration CSS**: Hình minh họa được vẽ hoàn toàn bằng CSS
-- **Typography Hiện đại**: Sử dụng font Inter với nhiều weight khác nhau
-- **Smooth Scrolling**: Cuộn mượt mà giữa các section
-- **Animation**: Hiệu ứng fade-in khi scroll và hover effects
-- **Mobile Navigation**: Menu hamburger cho thiết bị di động
-- **Parallax Effect**: Hiệu ứng parallax cho illustration
-- **Social Media Integration**: Liên kết đến các kênh social media
-
-## 🎨 Thiết kế
-
-Website được thiết kế dựa trên nguyên tắc tối giản với:
-- Màu sắc nhẹ nhàng (cream, xanh lá, nâu gỗ)
-- Typography rõ ràng và dễ đọc
-- Illustration vector style
-- Layout grid hiện đại
-- Whitespace hợp lý
-
-## 🚀 Cách chạy
-
-1. **Clone hoặc download dự án**
-2. **Mở file `index.html` trong trình duyệt**
-
-Không cần cài đặt thêm gì cả! Website sử dụng:
-- HTML5 thuần
-- CSS3 với Flexbox và Grid
-- Vanilla JavaScript
-- Google Fonts (Inter)
-- Font Awesome icons
-
-## 📁 Cấu trúc dự án
-
-```
-ntablog/
-├── index.html          # File HTML chính
-├── styles.css          # Toàn bộ CSS styling
-├── script.js           # JavaScript functionality
-└── README.md           # Tài liệu dự án
-```
-
-## 🎯 Các Section
-
-### 1. Header & Navigation
-- Fixed header với shadow khi scroll
-- Navigation menu với dropdown cho "SHOP"
-- Mobile hamburger menu
-
-### 2. Hero Section
-- Typography với nhiều style khác nhau
-- CSS illustration của person viết sách
-- Responsive layout
-
-### 3. About Section
-- Profile image
-- Nội dung giới thiệu bằng tiếng Việt
-- Grid layout responsive
-
-### 4. Social Media
-- Icons cho các platform
-- Hover effects
-- Link đến các kênh social media
-
-## 🎨 CSS Features
-
-### Illustration Elements
-- **Person**: Head, glasses, body, arms được vẽ bằng CSS
-- **Desk**: 3D perspective với transform
-- **Books**: Stack của 3 cuốn sách với màu khác nhau
-- **Plants**: Lá cây thường và lá monstera với hiệu ứng
-- **Notebook**: Perspective 3D với ruled lines
-
-### Animations
-- Fade-in khi scroll (Intersection Observer)
-- Parallax effect cho illustration
-- Hover effects cho interactive elements
-- Loading animations
-- Mobile menu transitions
-
-### Responsive Breakpoints
-- Desktop: 1200px+
-- Tablet: 768px - 1199px
-- Mobile: 480px - 767px
-- Small mobile: < 480px
-
-## 🌐 Browser Support
-
-- Chrome (60+)
-- Firefox (60+)
-- Safari (12+)
-- Edge (79+)
-
-## 📱 Mobile Features
-
-- Touch-friendly navigation
-- Swipe gesture detection
-- Optimized typography cho mobile
-- Hamburger menu animation
-- Responsive images
-
-## 🔧 Customization
-
-### Colors
-```css
-:root {
-  --primary-color: #7a9b73;      /* Xanh lá chính */
-  --accent-color: #5f7a58;       /* Xanh đậm */
-  --background: #f8f6f1;         /* Cream background */
-  --text-dark: #333;             /* Text chính */
-  --text-light: #666;            /* Text phụ */
-}
-```
-
-### Typography
-```css
-/* Font weights available */
-font-weight: 300; /* Light */
-font-weight: 400; /* Regular */
-font-weight: 500; /* Medium */
-font-weight: 600; /* Semi-bold */
-font-weight: 700; /* Bold */
-```
-
-## 🎯 Performance
-
-- **Optimized images**: Sử dụng WebP khi có thể
-- **Minimal dependencies**: Chỉ Google Fonts và Font Awesome
-- **CSS Grid/Flexbox**: Layout hiện đại, efficient
-- **Lazy loading**: Cho animations
-- **Compressed CSS**: Tối ưu hóa cho production
-
-## 📝 Todo List
-
-- [ ] Thêm blog section với posts
-- [ ] Contact form
-- [ ] Newsletter signup
-- [ ] Dark mode toggle
-- [ ] Multi-language support
-- [ ] SEO optimization
-- [ ] PWA features
-- [ ] Analytics integration
-
-## 🤝 Contributing
-
-Nếu bạn muốn đóng góp:
-1. Fork dự án
-2. Create feature branch
-3. Commit changes
-4. Push và create Pull Request
-
-## 📄 License
-
-MIT License - Chi tiết xem file LICENSE
-
-## 👤 Author
-
+Một website cá nhân và danh mục dự án kỹ thuật hiện đại của **NGUYỄN TUẤN ANH (NTABLP)** – Kỹ sư Điện tử Viễn thông (**Trường Đại học Khoa học - Đại học Huế // HUSC**) và Sinh viên ngành Tâm lý học (**Trường Đại học Văn Lang // VLU**). Được xây dựng trên kiến trúc **Next.js 16 (App Router) + TypeScript** với khả năng Static Export tối ưu 100% cho GitHub Pages.
 
 ---
 
-*Website được tạo với ❤️ và ☕ bằng HTML, CSS, JavaScript thuần* 
+## 🌟 Tính Năng & Điểm Nổi Bật
+
+- **Next.js 16 App Router & TypeScript**: Kiến trúc module hóa, component hóa chặt chẽ, type-safe toàn bộ mã nguồn.
+- **Static HTML Export (`output: 'export'`)**: Đóng gói thành các file HTML tĩnh độc lập trong thư mục `out/`, tối ưu 100% khi host trên GitHub Pages hoặc Cloudflare Pages mà không cần Node server.
+- **Chuẩn Thiết Kế UI/UX Pro Max & Landing Page Design**:
+  - Tỉ lệ tương phản WCAG 2.1 AA ở cả Dark và Light mode.
+  - Phông chữ hệ thống tải trước tự động qua `next/font/google`: *Manrope* (chữ chính) và *Geist Mono* (code/thông số kỹ thuật).
+  - Hiệu ứng mở rộng Tagline Reveal từng chữ mượt mà, tôn trọng cài đặt `prefers-reduced-motion`.
+- **Hệ Thống Component Tái Sử Dụng (`components/`)**:
+  - `ThemeToggle`: Chuyển đổi Dark / Light mode tức thì, lưu `localStorage` và chống giật sáng (flicker) bằng inline script trong `layout.tsx`.
+  - `Navbar` & `CourseNavbar`: Thanh điều hướng mượt mà, hỗ trợ Hamburger Drawer cho di động (khóa cuộn trang khi mở, đóng khi bấm Escape hoặc backdrop).
+  - `FaqAccordion`: Accordion tiêu chuẩn trợ năng (`aria-expanded`, `aria-controls`), mở đơn lẻ từng mục.
+  - `WaitlistForm`: Kiểm tra hợp lệ email theo thời gian thực, thông báo trạng thái tức thì và khóa nút khi gửi.
+  - `BackToTop`: Nút quay lại đầu trang với bộ điều tiết cuộn `requestAnimationFrame`.
+  - `ScrollReveal`: Tự động kích hoạt hiệu ứng xuất hiện khi cuộn vào khung nhìn qua `IntersectionObserver`.
+- **Chuẩn Hóa SEO & Metadata**: Khai báo Metadata API chuẩn Next.js, Open Graph, Twitter Cards, `robots.txt`, `sitemap.xml` và `CNAME` (`ta.tuananhhusc.id.vn`).
+
+---
+
+## 📁 Cấu Trúc Dự Án
+
+```
+tuananhhusc.github.io/
+├── .github/
+│   └── workflows/
+│       └── deploy.yml     # Tự động hóa build & deploy lên GitHub Pages
+├── app/
+│   ├── layout.tsx         # Root layout, Google Fonts, theme initialization script
+│   ├── globals.css        # Hệ thống CSS Design Tokens, WCAG variables & animations
+│   ├── page.tsx           # Trang chủ (Engineer's Dossier & Psychology Section)
+│   ├── not-found.tsx      # Trang 404 tùy biến kỹ thuật (Signal Loss Indicator)
+│   ├── course/
+│   │   └── page.tsx       # Trang khóa học & đăng ký sớm (Course Landing Page)
+│   └── psychology/
+│       └── page.tsx       # Chuyên trang Tâm lý học & Công nghệ vị nhân sinh (VLU)
+├── components/            # Các Client Components tương tác
+│   ├── Navbar.tsx         # Thanh điều hướng trang chủ
+│   ├── CourseNavbar.tsx   # Thanh điều hướng trang khóa học
+│   ├── PsychologyNavbar.tsx # Thanh điều hướng trang tâm lý học
+│   ├── ThemeToggle.tsx    # Nút chuyển Dark/Light theme
+│   ├── TaglineReveal.tsx  # Hiệu ứng xuất hiện tiêu đề chữ từng chữ
+│   ├── FaqAccordion.tsx   # Khối Hỏi & Đáp Accordion
+│   ├── WaitlistForm.tsx   # Form đăng ký danh sách chờ
+│   ├── BackToTop.tsx      # Nút cuộn lên đầu trang
+│   └── ScrollReveal.tsx   # Bộ quan sát hiệu ứng cuộn trang
+├── public/                # Tài nguyên tĩnh phục vụ trực tiếp
+│   ├── document/          # Hồ sơ CV / Resume PDF chính thức
+│   │   └── CV_Nguyen_Tuan_Anh_NTABLP.pdf
+│   ├── image/             # Ảnh đại diện, nền, favicon dạng WebP và SVG
+│   ├── video/             # Video giới thiệu khóa học
+│   ├── CNAME              # Tên miền tùy chỉnh ta.tuananhhusc.id.vn
+│   ├── favicon.ico        # Icon chuẩn trình duyệt
+│   ├── manifest.json      # Web App Manifest PWA
+│   ├── robots.txt         # Cấu hình bot tìm kiếm
+│   └── sitemap.xml        # Sơ đồ website
+├── next.config.mjs        # Cấu hình Next.js (output: 'export', trailingSlash: true)
+├── tsconfig.json          # Cấu hình TypeScript
+├── package.json           # Danh sách thư viện và tập lệnh
+└── .gitignore             # Danh sách loại trừ cho Git
+```
+
+---
+
+## 🚀 Hướng Dẫn Chạy & Build Dự Án
+
+### 1. Cài đặt thư viện (nếu bắt đầu từ clone mới)
+```bash
+npm install
+```
+
+### 2. Chạy môi trường phát triển (Development)
+```bash
+npm run dev
+```
+Trang web sẽ chạy tại: [http://localhost:3000](http://localhost:3000)
+- Trang chủ: `http://localhost:3000/`
+- Trang khóa học: `http://localhost:3000/course/`
+- Chuyên trang tâm lý học: `http://localhost:3000/psychology/`
+
+### 3. Build xuất bản tĩnh cho GitHub Pages (Static Export)
+```bash
+npm run build
+```
+Next.js sẽ biên dịch toàn bộ TypeScript và xuất toàn bộ mã nguồn tĩnh vào thư mục `out/`.
+Các tệp trong `out/` sẵn sàng được triển khai trực tiếp lên GitHub Pages.
+
+---
+
+## 👤 Tác Giả
+
+**Nguyễn Tuấn Anh (NTABLP)**
+- Học vấn: Kỹ sư Điện tử Viễn thông (ĐH Khoa học - ĐH Huế // HUSC) & Sinh viên Cử nhân Tâm lý học (ĐH Văn Lang // VLU)
+- Website: [ta.tuananhhusc.id.vn](https://ta.tuananhhusc.id.vn/)
+- Email: tuananhqhvl777@gmail.com
+- Shop: [ta.tuananhhusc.id.vn/ntashop/](https://ta.tuananhhusc.id.vn/ntashop/)
