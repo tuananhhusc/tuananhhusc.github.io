@@ -179,7 +179,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="vi" className={`${manrope.variable} ${geistMono.variable}`} suppressHydrationWarning>
+    <html
+      lang="vi"
+      className={`${manrope.variable} ${geistMono.variable}`}
+      data-scroll-behavior="smooth"
+      suppressHydrationWarning
+    >
       <head>
         <script
           type="application/ld+json"
